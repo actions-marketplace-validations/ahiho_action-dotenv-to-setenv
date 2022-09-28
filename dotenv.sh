@@ -66,6 +66,7 @@ export_envs() {
 		value=$(eval echo ${temp});
 
 		eval export "$key='$value'";
+		echo "::add-mask::$value"
 		echo "$key=$value" >> $GITHUB_ENV;
 	done < $1
 }
