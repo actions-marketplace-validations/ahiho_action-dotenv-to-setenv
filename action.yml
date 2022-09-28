@@ -1,5 +1,5 @@
-name: 'Environment Variables from Dotenv'
-author: "c-py"
+name: 'Masked Environment Variables from Dotenv'
+author: "ahiho"
 description: 'Export environment variables from a "dotenv" file into GitHub Actions via set-env workflow commands'
 branding:
   icon: settings
